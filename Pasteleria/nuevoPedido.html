@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Nuevo Pedido</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body  ">
+    <center>
+    <img src="./img/pastel.jpg.png" alt="logo tacos" width="480px">
+    <h1>LLENE TODOS LOS CAMPOS PARA COMPLETAR SU PEDIDO</h1>
+    </center>
+
+
+    <center>
+        <form action="nuevoPedido.js">
+    
+          <label for="nombre">Nombre del cliente:</label>
+              <input type="text" name="name" id="name" placeholder="Nombre" >
+              <br> <br>
+
+         <label for="mesa">Numero telefonico:</label>
+              <input type="tel" name="cel" id="cel" placeholder="digite 10 numeros">
+
+              <br> <br>
+        <label for="mesa">Correo Electronico:</label>
+              <input type="email" name="correo" id="correo" placeholder="Correo Electonico">
+         
+
+              <br> <br>
+              <p> SABOR DE PASTEL</p>
+              <input type="radio" id="coca" name="beber" value="coca">
+              <label for="coca">3 Leches</label> <br>
+              <input type="radio" id="fanta" name="beber" value="fanta">
+              <label for="fanta">Chocoflan</label> <br>
+              <input type="radio" id="aguaj" name="beber" value="aguaj">
+              <label for="aguaj">Combinado</label> <br>
+              <input type="radio" id="aguat" name="beber" value="aguat">
+              <label for="aguat">Chocolate carlos V</label> <br>
+
+         <p>ELEGIR ADORNO:</p>
+                   <input type="checkbox" id="Campechano" name="Campechano" value="Campechano">
+                   <label for="Campechano">Imagen personalizada</label>
+                  <br>
+
+                   <input type="checkbox" id="Bistec" name="Bistec" value="Bistec">
+                   <label for="Bistec">Texto personalizado</label>
+                   <br>
+
+                   <input type="checkbox" id="pastor" name="pastor" value="pastor">
+                   <label for="pastor">Diseño personalizado</label>
+                   <br>
+
+          
+                   
+     
+                   <br> <br>
+            <div align='center'>
+               
+                        <div class="btn"><a href="pasteleria.html">Regresar</a></div>
+                        <div class="btn"><a href="pasteleria.html">Enviar</a></div>
+                        
+                   
+            </div><br>
+            
+                   
+                   
+     </form>
+    </center>
+    
+<style>
+
+.btn{
+    margin:16px 6px 2px 0;
+    color:#ffffff;
+    font-weight:bold;
+    display:inline-block;
+    padding:6px 12px;
+    font-size:16px;
+    text-align:center;
+    cursor:pointer;
+    outline:0;
+    
+    background-color:#706f1d;
+}
+
+.btn a {color:#ffffff;text-decoration:none;}
+ </style>
+    
+</body>
+</html>
